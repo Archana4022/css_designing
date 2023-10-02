@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Event</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+        #navbarNav
+        {
+            margin-left: 750px;
+        }
+
+        .navbar-nav
+        {
+            font-weight: bold;
+        }
+
+        .nav-item:hover
+        {
+            text-decoration: underline;
+        }
+
+        .head
+        {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: left;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding-right: 200px;
+        }
+        
+        img
+        {
+            margin-left: 20px;
+        }
+        
+        .contentdet
+        {
+            margin-left: 240px;
+        }
+
+        .form-group
+        {
+            padding: 10px !important;
+        }
+
+        button
+        {
+            margin: 10px;
+        }
+
+        body
+        {
+            background-color: #FBE978;
+        }
+
+        label
+        {
+            font-weight: bold;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html"><img src="C:\Users\Saranya\Desktop\css_designing\images\music.png"  height="80"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="C:/Users/Saranya/Desktop/css_designing/css_designing/index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="ticket.html">Ticket Registration</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        </ul>
+    </div>
+    </nav>
+
+    <div class="contentdet">
+        <div class="row">
+            <div class="head">Ticket Registration</div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <form action="#" method="post" class="form-inline">
+                    <div class="form-group row">
+                    <label for="name">Name:</label>
+                    <input type="text" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group row">
+                    <label for="email">Email Address:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email Address">
+                    </div>
+                    <div class="form-group row">
+                        <label for="phno">Phone Number:</label>
+                        <input type="number" class="form-control" id="phno" placeholder="Phone Number">
+                    </div>
+                    <div class="form-group row">
+                        <label for="ticketprice">Ticket Price:</label>
+                        <select class="form-control" id="ticketprice">
+                            <option value="">-----Choose Ticket Price-----</option>
+                            <option value="1500">1500</option>
+                            <option value="2500">2500</option>
+                            <option value="3500">3500</option>
+                            <option value="5000">5000</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="margin-top: 30px;">Submit</button>
+                </form>
+
+            </div>    
+        </div>
+    </div>    
+</body>    
